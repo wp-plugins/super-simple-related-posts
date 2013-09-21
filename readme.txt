@@ -16,7 +16,8 @@ Super Simple Related Posts outputs a list of posts related to the current post. 
 = Features =
 There are a ton of related posts plugins out there - here's what sets Super Simple Related Posts apart:
 
-1.  **Speed**  
+1.  **Speed**
+
     Unlike other related posts plugins, Super Simple Related Posts is super fast. It doesn't run resource-intensive algorithms on your database, and it therefore doesn't bog down your server either. If you're looking for a plugin that'll run through all your content and match related posts word-for-word, there are plenty of good ones out there. If you're looking for a simple, lightning fast related posts plugin, you're in the right place.
 2.  **Simplicity**  
     As it's name implies, Super Simple Related Posts keeps things as straightforward as possible. This means that you get a simple widget with easily configurable settings to let you do what you gotta' do.
