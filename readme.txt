@@ -67,6 +67,8 @@ Super Simple Related Posts also provides you with a handy set of filters you can
 * **`ssrp_post_type_heading( $post_type_name, $post_type_object )`**  
   Applied to the post type headings, within the surrounding `<a></a>` tags if the headings are set to be linked.
 
+Banner photo by [Susannah Kay](http://susannahkay.com).
+
 
 == Installation ==
 
