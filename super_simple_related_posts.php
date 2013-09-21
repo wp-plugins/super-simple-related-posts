@@ -405,7 +405,7 @@ class SSRP_Widget extends WP_Widget {
                             $term_output .= '<a href="' . get_term_link( get_term_by('id', $term_id, $taxonomy) ) . '">';
                     
                         // Output taxonomy term heading text  
-                        $term_output .= apply_filters( 'ssrp_taxonomy_term_heading', get_term_by('id', $term_id, $taxonomy)->name, $post );
+                        $term_output .= apply_filters( 'ssrp_taxonomy_term_heading', $term_object->name, $term_object );
 
                         // Close taxonomy term heading link if specified
                         if ( isset( $instance['term_heading_links'] ) && 1 == $instance['term_heading_links'] )
@@ -459,7 +459,7 @@ class SSRP_Widget extends WP_Widget {
                     }
                     
                     // Output post type heading text and apply ssrp_post_type_heading filter
-                    $output .= apply_filters( 'ssrp_post_type_heading', get_post_type_object($post_type)->labels->name, $post_type );
+                    $output .= apply_filters( 'ssrp_post_type_heading', get_post_type_object($post_type)->labels->name, get_post_type_object($post_type) );
                
                     // Close post type heading link if need be
                     if ( isset( $instance['post_heading_links'] ) && 1 == $instance['post_heading_links'] )

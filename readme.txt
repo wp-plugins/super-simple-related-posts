@@ -14,16 +14,16 @@ A super simple widget to output related posts based on categories, tags, or cust
 Super Simple Related Posts outputs a list of posts related to the current post. You get to decide how the posts are related (categories, tags, custom taxonomies), what to show (posts, pages, custom post types), and a whole lot more.
 
 = Features =
-There are a ton of related posts plugins out there - here's what sets Super Simple Related Posts apart:
+There are tons of related posts plugins out there - here's why Super Simple Related Posts is special:
 
-1.  **Speed**  
-    Unlike other related posts plugins, Super Simple Related Posts is super fast. It doesn't run resource-intensive algorithms on your database, and it therefore doesn't bog down your server either. If you're looking for a plugin that'll run through all your content and match related posts word-for-word, there are plenty of good ones out there. If you're looking for a simple, lightning fast related posts plugin, you're in the right place.
+* **Speed**  
+  Unlike other related posts plugins, Super Simple Related Posts is super fast. It doesn't run resource-intensive algorithms on your database and it doesn't bog down your server. If you're looking for a plugin that'll run through all your content and match related posts word-for-word, there are plenty of good ones out there. If you're looking for a simple, lightning-fast related posts plugin, you're in the right place.
 
-2.  **Simplicity**  
-    As it's name implies, Super Simple Related Posts keeps things as straightforward as possible. This means that you get a simple widget with easily configurable settings to let you do what you gotta' do.
+* **Simplicity**  
+  As it's name implies, Super Simple Related Posts keeps things as straightforward as possible. This means that you get a simple widget with easily configurable settings to let you do what you gotta' do.
 
 = Settings = 
-You can easily configure Super Simple Related Posts with the following settings, which can be found in each WWRP widget.
+You can easily configure Super Simple Related Posts with the following settings, which can be found in each SSRP widget.
 
 * **Post Types**  
   The post types you would like to output, and the order in which you want to display them. This works great with all custom post types.
@@ -40,8 +40,8 @@ You can easily configure Super Simple Related Posts with the following settings,
 * **Number of Posts**  
   The total number of posts you would like to show in each section.
 
-* **What to do if there are no related posts**
-  Choose how you would like to handle the situations in which no posts are found. Either hide the contents, or display a custom message.
+* **What to do if there are no related posts**  
+  Choose how you would like to handle the situations in which no posts are found. Either hide the contents or display a custom message.
 
 * **Headings**  
   Options to link and/or hide post type and category/tag/taxonomy headings.
@@ -52,19 +52,19 @@ You can easily configure Super Simple Related Posts with the following settings,
 = Filters = 
 Super Simple Related Posts also provides you with a handy set of filters you can use for your own development and customization:
 
-* **`ssrp_post_title( $post_link, $post_ID )`**  
+* **`ssrp_post_title( $post_title, $post_ID )`**  
   Applied to the title of each related post, within the surrounding `<a></a>` tags.
 
 * **`ssrp_post_link( $post_link, $post_ID )`**  
   Applied to the linked title of each related post, outside the surrounding `<a></a>` tags. This is useful for adding a prefix/font-icon before the linked title.
 
-* **`ssrp_posts_list( $post_output, $post_type, $taxonomy_term_id )`**  
+* **`ssrp_posts_list( $post_ul, $post_type, $taxonomy_term_id )`**  
   Applied to the `<ul>` lists of related posts for a given custom post type and category/tag/taxonomy.
 
-* **`ssrp_taxonomy_term_heading( $taxonomy_term_name, $post_id )`**  
+* **`ssrp_taxonomy_term_heading( $taxonomy_term_name, $taxonomy_term_object )`**  
   Applied to the category/tag/taxonomy term headings, within the surrounding `<a></a>` tags if the headings are set to be linked.
 
-* **`ssrp_post_type_heading( $taxonomy_term_name, $post_type )`**  
+* **`ssrp_post_type_heading( $post_type_name, $post_type_object )`**  
   Applied to the post type headings, within the surrounding `<a></a>` tags if the headings are set to be linked.
 
 
