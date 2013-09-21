@@ -11,7 +11,7 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 A super simple widget to output related posts based on categories, tags, or custom taxonomies.
 
 == Description ==
-Super Simple Related Posts outputs a list of posts related to the current post. You get to decide how the posts are related - by categories, tags, or a custom taxonomy.
+Super Simple Related Posts outputs a list of posts related to the current post. You get to decide how the posts are related (categories, tags, custom taxonomies), what to show (posts, pages, custom post types), and a whole lot more.
 
 = Features =
 There are a ton of related posts plugins out there - here's what sets Super Simple Related Posts apart:
