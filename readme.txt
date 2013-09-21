@@ -52,13 +52,13 @@ You can easily configure Super Simple Related Posts with the following settings,
 = Filters = 
 Super Simple Related Posts also provides you with a handy set of filters you can use for your own development and customization:
 
-* **`ssrp_post_title( $post_title, $post_ID )`**  
+* **`ssrp_post_title( $post_title, $post_id )`**  
   Applied to the title of each related post, within the surrounding `<a></a>` tags.
 
-* **`ssrp_post_link( $post_link, $post_ID )`**  
+* **`ssrp_post_link( $post_link, $post_id )`**  
   Applied to the linked title of each related post, outside the surrounding `<a></a>` tags. This is useful for adding a prefix/font-icon before the linked title.
 
-* **`ssrp_posts_list( $post_ul, $post_type, $taxonomy_term_id )`**  
+* **`ssrp_posts_list( $post_ul, $post_type_object, $taxonomy_term_object )`**  
   Applied to the `<ul>` lists of related posts for a given custom post type and category/tag/taxonomy.
 
 * **`ssrp_taxonomy_term_heading( $taxonomy_term_name, $taxonomy_term_object )`**  

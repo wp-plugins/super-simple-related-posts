@@ -419,8 +419,7 @@ class SSRP_Widget extends WP_Widget {
                         $post_output = '<div class="no-posts-message">' . $instance['no_posts_message'] . '</div>';
 
                     // Output the posts list and apply ssrp_posts_list filter
-                    $term_output .= '<ul>' . apply_filters( 'ssrp_posts_list', $post_output, $post_type, $term_id ) . '</ul>';
-                }
+                    $term_output .= '<ul>' . apply_filters( 'ssrp_posts_list', $post_output, get_post_type_object($post_type), $term_object ) . '</ul>';
 
 
             } /* End terms loop */
