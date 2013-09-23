@@ -1,14 +1,15 @@
+
 <?php
 /**
  * @package Super_Simple_Related_posts
- * @version 1.0
+ * @version 1.1
  */
 
 /**
  * Plugin Name: Super Simple Related Posts
  * Plugin URI:  http://mightyminnow.com
  * Description: A super simple plugin to output related posts based on categories, tags, or custom taxonomies.
- * Version:     1.0
+ * Version:     1.1
  * Author:      MIGHTYminnow
  * Author URI:  http://mightyminnow.com
  * License:     GPLv2+
@@ -41,8 +42,8 @@ define( 'SSRP_PATH',    dirname( __FILE__ ) . '/' );
  * @since   1.0
  */
 function ssrp_activate() {
-	// First load the init scripts
-	ssrp_init();
+    // First load the init scripts
+    ssrp_init();
 
     flush_rewrite_rules();
 }
@@ -421,6 +422,7 @@ class SSRP_Widget extends WP_Widget {
                     // Output the posts list and apply ssrp_posts_list filter
                     $term_output .= '<ul>' . apply_filters( 'ssrp_posts_list', $post_output, get_post_type_object($post_type), $term_object ) . '</ul>';
 
+                }
 
             } /* End terms loop */
 

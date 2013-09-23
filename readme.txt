@@ -4,7 +4,7 @@ Donate link:       http://mightyminnow.com
 Tags:              related, posts, content, category, tag, taxonomy, widget
 Requires at least: 3.0
 Tested up to:      3.6.1
-Stable tag:        1.0
+Stable tag:        1.1
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,10 +85,16 @@ Banner photo by [Susannah Kay](http://susannahkay.com).
 
 == Changelog ==
 
+= 1.1 =
+* Added missing closting bracket } to main PHP file that was causing PHP end of file error and duplicated post type output.
+
 = 1.0 =
 * First release
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Added missing closting bracket } to main PHP file that was causing PHP end of file error and duplicated post type output.
 
 = 1.0 =
 First Release
