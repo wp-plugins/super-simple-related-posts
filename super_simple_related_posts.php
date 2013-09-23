@@ -1,4 +1,3 @@
-
 <?php
 /**
  * @package Super_Simple_Related_posts
