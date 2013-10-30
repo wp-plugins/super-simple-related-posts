@@ -11,7 +11,8 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 A super simple widget to output related posts based on categories, tags, or custom taxonomies.
 
 == Description ==
-Super Simple Related Posts gives you both a widget and a shortcode to output lists of posts related to the current post. You get to decide how the posts are related (categories, tags, custom taxonomies), what to show (posts, pages, custom post types), and a whole lot more. The widget is configurable via **Appearance > Settings** and the more info on shortcode usage is provided below.
+Super Simple Related Posts gives you both a widget and a shortcode to output lists of posts related to the current post. You get to decide how the posts are related (categories, tags, custom taxonomies), what to show (posts, pages, custom post types), and a whole lot more. The widget is configurable via **Appearance > Settings** and more info on shortcode usage is provided below.
+
 
 = Features =
 There are tons of related posts plugins out there - here's why Super Simple Related Posts is special:
@@ -21,6 +22,7 @@ There are tons of related posts plugins out there - here's why Super Simple Rela
 
 * **Simplicity**  
   As it's name implies, Super Simple Related Posts keeps things as straightforward as possible. This means that you get a simple widget with easily configurable settings to let you do what you gotta' do.
+
 
 = Settings = 
 Whether you use widgets or shortcakes, you can easily configure Super Simple Related Posts with the following settings. These settings are directly configurable in each widget, and can also be controlled with attributes when using shortcodes (for more on shortcode settings, see the "Shortcode" section below).
@@ -55,6 +57,7 @@ Whether you use widgets or shortcakes, you can easily configure Super Simple Rel
 * **Before/After HTML**  
   A handy feature to let you add custom HTML before and after the widget, in case you want any intro or concluding text.
 
+
 = Shortcode = 
 In addition to using SSRP widgets, you can also use the `[ssrp]` shortcode. Here's an example:
 
@@ -63,34 +66,21 @@ In addition to using SSRP widgets, you can also use the `[ssrp]` shortcode. Here
 Here is a list of the available shortcode attributes, which correlate to the settings listed above. Each attribute is listed along with its potential values in quotations, and any default values are listed in parenthesis.
 
 * `title="Any Text"` (Related Posts)
-
 * `hide_title="1"`
-
 * `post_types="Comma-separated list of post type slugs, in order. E.g. post, page"`
-
-* `taxonomy="Taxonomy slug by which to detemine relatedness. E.g. category"`
-
+* `taxonomy="Taxonomy slug by which to detemine relatedness. E.g. tag"` (category)
 * `orderby="title|name|date|modified|menu_order|author|ID|parent|rand|comment_count"` (date)
-
 * `order="ASC|DESC"` (DESC)
-
 * `number_of_posts="Any number"` (-1, unlimited)
-
 * `no_posts_action="hide|message"` (hide)
-
 * `no_posts_message="Any text"` (No posts found)
-
 * `post_heading_links="1"`
-
 * `hide_post_type_headings="1"`
-
 * `term_heading_links="1"`
-
 * `hide_term_headings="1"`
-
 * `before_HTML="Any HTML/text"`
-
 * `after_HTML="Any HTML/text"`
+
 
 = Filters = 
 Super Simple Related Posts also provides you with a handy set of filters you can use for your own development and customization:
@@ -109,6 +99,7 @@ Super Simple Related Posts also provides you with a handy set of filters you can
 
 * **`ssrp_post_type_heading( $post_type_name, $post_type_object )`**  
   Applied to the post type headings, within the surrounding `<a></a>` tags if the headings are set to be linked.
+
 
 Banner photo by [Susannah Kay](http://susannahkay.com).
 
