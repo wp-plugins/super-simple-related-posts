@@ -13,6 +13,8 @@ A super simple widget to output related posts based on categories, tags, or cust
 == Description ==
 Super Simple Related Posts outputs a list of posts related to the current post. You get to decide how the posts are related (categories, tags, custom taxonomies), what to show (posts, pages, custom post types), and a whole lot more.
 
+A [**MIGHTYminnow**](http://mightyminnow.com) plugin.
+
 = Features =
 There are tons of related posts plugins out there - here's why Super Simple Related Posts is special:
 
