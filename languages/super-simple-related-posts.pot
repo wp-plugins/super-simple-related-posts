@@ -2,165 +2,195 @@
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version:  \n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/super-simple-related-posts\n"
-"POT-Creation-Date: 2013-09-21 18:22:03+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: super_simple_related_posts.php:28
-msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
-msgstr ""
-
-#: super_simple_related_posts.php:112
+#. Text in function
+#: super_simple_related_posts.php:1
 msgid "A list of posts related to the current post/page."
 msgstr ""
 
-#: super_simple_related_posts.php:113
-msgid "Super Simple Related Posts"
-msgstr ""
-
-#: super_simple_related_posts.php:125
-msgid "No posts found"
-msgstr ""
-
-#: super_simple_related_posts.php:152
-msgid "Title:"
-msgstr ""
-
-#: super_simple_related_posts.php:158
-msgid "Post types to include (by slug):"
-msgstr ""
-
-#: super_simple_related_posts.php:159
-msgid "e.g. post, page, faq"
-msgstr ""
-
-#: super_simple_related_posts.php:160
-msgid ""
-"Comma separated, ordered list of post type slugs. Available post type slugs:"
-msgstr ""
-
-#: super_simple_related_posts.php:165
-msgid "Show posts related by:"
-msgstr ""
-
-#: super_simple_related_posts.php:192
-msgid "Order posts by:"
-msgstr ""
-
-#: super_simple_related_posts.php:197
-msgid "Title"
-msgstr ""
-
-#: super_simple_related_posts.php:198
-msgid "Post Slug"
-msgstr ""
-
-#: super_simple_related_posts.php:199
-msgid "Date Created"
-msgstr ""
-
-#: super_simple_related_posts.php:200
-msgid "Date Modified"
-msgstr ""
-
-#: super_simple_related_posts.php:201
-msgid "Menu Order"
-msgstr ""
-
-#: super_simple_related_posts.php:202
-msgid "Author"
-msgstr ""
-
-#: super_simple_related_posts.php:203
-msgid "Post ID"
-msgstr ""
-
-#: super_simple_related_posts.php:204
-msgid "Parent ID"
-msgstr ""
-
-#: super_simple_related_posts.php:205
-msgid "Random"
-msgstr ""
-
-#: super_simple_related_posts.php:206
-msgid "Comment Count"
-msgstr ""
-
-#: super_simple_related_posts.php:219
-msgid "Order:"
-msgstr ""
-
-#: super_simple_related_posts.php:224
+#. Text in function
+#: super_simple_related_posts.php:248
 msgid "Ascending"
 msgstr ""
 
-#: super_simple_related_posts.php:225
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Author"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:168
+msgid "Comma separated, ordered list of post type slugs. Available post type slugs:"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Comment Count"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Date Created"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Date Modified"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
 msgid "Descending"
 msgstr ""
 
-#: super_simple_related_posts.php:238
-msgid "Number of posts to show:"
-msgstr ""
-
-#: super_simple_related_posts.php:254
-msgid "If there are no related posts:"
-msgstr ""
-
-#: super_simple_related_posts.php:256
-msgid "Hide the content/widget"
-msgstr ""
-
-#: super_simple_related_posts.php:258
-msgid "Show the following message:"
-msgstr ""
-
-#: super_simple_related_posts.php:264
-msgid "Headings (post types):"
-msgstr ""
-
-#: super_simple_related_posts.php:266
-msgid "Link post type headings"
-msgstr ""
-
-#: super_simple_related_posts.php:268
-msgid "Hide post type headings"
-msgstr ""
-
-#: super_simple_related_posts.php:273
-msgid "Subheadings (taxonomy terms):"
-msgstr ""
-
-#: super_simple_related_posts.php:275
-msgid "Link taxonomy term subheadings"
-msgstr ""
-
-#: super_simple_related_posts.php:277
-msgid "Hide taxonomy term subheadings"
-msgstr ""
-
-#: super_simple_related_posts.php:282
-msgid "HTML before widget:"
-msgstr ""
-
-#: super_simple_related_posts.php:283
-msgid "e.g. <p>Intro text goes here&hellip;</p>"
-msgstr ""
-
-#: super_simple_related_posts.php:288
+#. Text in echo
+#: super_simple_related_posts.php:302
 msgid "HTML after widget:"
 msgstr ""
 
+#. Text in echo
+#: super_simple_related_posts.php:296
+msgid "HTML before widget:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:278
+msgid "Headings (post types):"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:282
+msgid "Hide post type headings"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:291
+msgid "Hide taxonomy term subheadings"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:270
+msgid "Hide the content/widget"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:161
+msgid "Hide the widget title"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:268
+msgid "If there are no related posts:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:263
+msgid "Include featured image"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:280
+msgid "Link post type headings"
+msgstr ""
+
+#. Text in echo
 #: super_simple_related_posts.php:289
+msgid "Link taxonomy term subheadings"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Menu Order"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:1
+msgid "No posts found"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:246
+msgid "Number of posts to show:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:200
+msgid "Order posts by:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:227
+msgid "Order:"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Parent ID"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Post ID"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Post Slug"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:166
+msgid "Post types to include (by slug):"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Random"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:173
+msgid "Show posts related by:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:272
+msgid "Show the following message:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:287
+msgid "Subheadings (taxonomy terms):"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:1
+msgid "Super Simple Related Posts"
+msgstr ""
+
+#. Text in function
+#: super_simple_related_posts.php:248
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:156
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:303
 msgid "e.g. <a href=\"#\">Learn more &raquo;</a>"
 msgstr ""
 
-#: super_simple_related_posts.php:343
-msgid "Related Posts"
+#. Text in echo
+#: super_simple_related_posts.php:297
+msgid "e.g. <p>Intro text goes here&hellip;</p>"
+msgstr ""
+
+#. Text in echo
+#: super_simple_related_posts.php:167
+msgid "e.g. post, page, faq"
 msgstr ""
