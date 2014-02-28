@@ -120,6 +120,9 @@ Banner photo by [Susannah Kay](http://susannahkay.com).
 
 == Changelog ==
 
+= 1.3 =
+* Added ability to include featured images
+
 = 1.2 =
 * Added shortcode functionality!
 * Add ability to hide the title (hide_title).
@@ -131,6 +134,9 @@ Banner photo by [Susannah Kay](http://susannahkay.com).
 * First release
 
 == Upgrade Notice ==
+
+= 1.3 =
+* Added ability to include featured images
 
 = 1.2 =
 * Added shortcode functionality!
