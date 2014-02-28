@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Super_Simple_Related_posts
- * @version 1.2
+ * @version 1.3
  */
 
 /**
  * Plugin Name: Super Simple Related Posts
  * Plugin URI:  http://mightyminnow.com
  * Description: A super simple plugin to output related posts based on categories, tags, or custom taxonomies.
- * Version:     1.2
+ * Version:     1.3
  * Author:      MIGHTYminnow
  * Author URI:  http://mightyminnow.com
  * License:     GPLv2+
@@ -30,7 +30,7 @@ if ( !function_exists( 'add_action' ) ) {
 }
 
 // Useful global constants
-define( 'SSRP_VERSION', '1.2' );
+define( 'SSRP_VERSION', '1.3' );
 define( 'SSRP_URL',     plugin_dir_url( __FILE__ ) );
 define( 'SSRP_PATH',    dirname( __FILE__ ) . '/' );
 
@@ -122,6 +122,7 @@ class SSRP_Widget extends WP_Widget {
             'orderby'                 => 'date',
             'order'                   => 'DESC',
             'number_of_posts'         => -1,
+            'include_featured_image'  => '',
             'no_posts_action'         => 'hide',
             'no_posts_message'        => __('No posts found', 'ssrp'),
             'post_heading_links'      => '',
@@ -255,6 +256,12 @@ class SSRP_Widget extends WP_Widget {
                     }
                 ?>
             </select>
+        </p>
+
+	<!-- Featured Image -->
+        <p>
+            <input type="checkbox" value="1" <?php checked( 1 == $instance['include_featured_image'] ); ?> id="<?php echo $this->get_field_id( 'include_featured_image' ); ?>" name="<?php echo $this->get_field_name( 'include_featured_image' ); ?>">
+            <label for="<?php echo $this->get_field_id( 'include_featured_image' ); ?>"><?php _e('Include featured image', 'ssrp'); ?></label>
         </p>
 
         <!-- No Posts Found -->
@@ -397,6 +404,10 @@ class SSRP_Widget extends WP_Widget {
 
                     // Add actual link
                     $post_link = '<a href="' . get_permalink($post->ID) . '">' . $post_link . '</a>';
+
+                    // Add featured image if needed
+                    if ( isset( $instance['include_featured_image'] ) && $instance['include_featured_image'] )
+                        $post_link = '<a href="' . get_permalink($post->ID) . '">' . get_the_post_thumbnail( $post->ID ) . '</a>' . $post_link;
                     
                     // Apply ssrp_post_link (outside of <a> tag)
                     $post_output .= '<li>' . apply_filters( 'ssrp_post_link', $post_link, $post->ID ) . '</li>'; 

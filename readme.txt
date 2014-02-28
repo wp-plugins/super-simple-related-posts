@@ -3,8 +3,8 @@ Contributors:      McGuive7, MIGHTYminnow
 Donate link:       http://mightyminnow.com
 Tags:              related, posts, content, category, tag, taxonomy, widget
 Requires at least: 3.0
-Tested up to:      3.7
-Stable tag:        1.2
+Tested up to:      3.8.1
+Stable tag:        1.3
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -120,6 +120,9 @@ Banner photo by [Susannah Kay](http://susannahkay.com).
 
 == Changelog ==
 
+= 1.3 =
+* Added ability to include featured images
+
 = 1.2 =
 * Added shortcode functionality!
 * Add ability to hide the title (hide_title).
@@ -131,6 +134,9 @@ Banner photo by [Susannah Kay](http://susannahkay.com).
 * First release
 
 == Upgrade Notice ==
+
+= 1.3 =
+* Added ability to include featured images
 
 = 1.2 =
 * Added shortcode functionality!
