@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Super_Simple_Related_posts
- * @version 1.3
+ * @version 1.4
  */
 
 /**
  * Plugin Name: Super Simple Related Posts
  * Plugin URI:  http://mightyminnow.com
  * Description: A super simple plugin to output related posts based on categories, tags, or custom taxonomies.
- * Version:     1.3
+ * Version:     1.4
  * Author:      MIGHTYminnow
  * Author URI:  http://mightyminnow.com
  * License:     GPLv2+
@@ -248,7 +248,7 @@ class SSRP_Widget extends WP_Widget {
             <select id="<?php echo $this->get_field_id( 'number_of_posts' ); ?>" name="<?php echo $this->get_field_name( 'number_of_posts' ); ?>" class="widefat">
                 <?php
                     // First, output the <option> for unlimited
-                    echo '<option value="-1" ' . selected( $instance['order'], $order_value ) . '>Unlimited</option>' . "\n";
+                    echo '<option value="-1" ' . selected( $instance['order'], $order_value ) . '>' . __('Unlimited', 'ssrp') . '</option>' . "\n";
 
                     // Output <option>'s for the numbers 1-100
                     for ( $i = 1; $i <= 100; $i++ ) {
@@ -258,7 +258,7 @@ class SSRP_Widget extends WP_Widget {
             </select>
         </p>
 
-	<!-- Featured Image -->
+    <!-- Featured Image -->
         <p>
             <input type="checkbox" value="1" <?php checked( 1 == $instance['include_featured_image'] ); ?> id="<?php echo $this->get_field_id( 'include_featured_image' ); ?>" name="<?php echo $this->get_field_name( 'include_featured_image' ); ?>">
             <label for="<?php echo $this->get_field_id( 'include_featured_image' ); ?>"><?php _e('Include featured image', 'ssrp'); ?></label>
