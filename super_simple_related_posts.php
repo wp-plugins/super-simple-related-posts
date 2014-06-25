@@ -248,7 +248,7 @@ class SSRP_Widget extends WP_Widget {
             <select id="<?php echo $this->get_field_id( 'number_of_posts' ); ?>" name="<?php echo $this->get_field_name( 'number_of_posts' ); ?>" class="widefat">
                 <?php
                     // First, output the <option> for unlimited
-                    echo '<option value="-1" ' . selected( $instance['order'], $order_value ) . '>Unlimited</option>' . "\n";
+                    echo '<option value="-1" ' . selected( $instance['order'], $order_value ) . '>' . __('Unlimited', 'ssrp') . '</option>' . "\n";
 
                     // Output <option>'s for the numbers 1-100
                     for ( $i = 1; $i <= 100; $i++ ) {
