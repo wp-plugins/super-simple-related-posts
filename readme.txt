@@ -26,7 +26,7 @@ There are tons of related posts plugins out there - here's why Super Simple Rela
 
 
 = Settings = 
-Whether you use widgets or shortcakes, you can easily configure Super Simple Related Posts with the following settings. These settings are directly configurable in each widget, and can also be controlled with attributes when using shortcodes (for more on shortcode settings, see the "Shortcode" section below).
+Whether you use widgets or shortcodes, you can easily configure Super Simple Related Posts with the following settings. These settings are directly configurable in each widget, and can also be controlled with attributes when using shortcodes (for more on shortcode settings, see the "Shortcode" section below).
 
 * **Title**  
   The title of your widget.
